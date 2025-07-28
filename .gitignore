@@ -1,0 +1,63 @@
+Predicting Income Brackets from Census Data
+
+Project Overview
+
+
+This project analyzes demographic and employment data from the US Census to identify the key factors that determine whether an individual earns more or less than $50,000 per year. The goal is to build a predictive model that is not only accurate but also interpretable, providing actionable insights into the drivers of income.
+
+This analysis serves as a technical assessment for the Data Scientist role at Dataiku. The focus is on demonstrating a clear, reproducible, and well-documented data science workflow, from initial data exploration to final model interpretation and recommendations, keeping in mind a customer-facing presentation of the results.
+
+Project Structure
+
+
+The repository is organized to ensure clarity and reproducibility:
+
+
+	.
+	├── .gitignore         # Specifies files to be ignored by Git
+	├── README.md          # This file: Project overview and instructions
+	├── requirements.txt   # Python dependencies for the project
+	├── data/              # Contains the raw CSV datasets
+	│   ├── census_income_learn.csv
+	│   └── census_income_test.csv
+	├── notebooks/
+	│   └── 1_eda_and_modeling.ipynb # Jupyter Notebook with the full analysis
+	└── presentation/
+	    └── Dataiku_Income_Prediction_Slides.pdf # Final presentation slides
+
+Getting Started
+
+
+To replicate this analysis, please follow these steps:
+
+1. Clone the Repository
+
+
+	git clone https://github.com/your-username/your-repo-name.git
+	cd your-repo-name
+
+2. Create and Activate a Virtual Environment
+
+It is highly recommended to use a virtual environment to manage dependencies.
+
+
+- Using venv:
+
+	python -m venv venv
+	source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+
+
+
+3. Install Dependencies
+
+Install all required Python libraries using the requirements.txt file.
+
+
+	pip install -r requirements.txt
+
+4. Launch the Analysis
+
+The complete analysis is contained within a Jupyter Notebook.
+
+
+	jupyter notebook notebooks/1_eda_and_modeling.ipynb
