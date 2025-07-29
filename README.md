@@ -17,7 +17,7 @@ The repository is organized to ensure clarity and reproducibility:
     │   ├── census_income_learn.csv
     │   └── census_income_test.csv
     ├── notebooks/
-    │   └── 1_eda_and_modeling.ipynb # Jupyter Notebook with the full analysis
+    │   └── data_analysis.ipynb # Jupyter Notebook with the full analysis
     └── presentation/
         └── Dataiku_Income_Prediction_Slides.pdf # Final presentation slides
 
@@ -27,7 +27,7 @@ To replicate this analysis, please follow these steps:
 
 1. Clone the Repository
 
-   git clone https://github.com/poka99/dataiku-amine-biad.git
+   git clone https://github.com/poka93/dataiku-amine-biad.git
    cd dataiku-amine-biad
 
 2. Create and Activate a Virtual Environment
