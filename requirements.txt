@@ -6,3 +6,6 @@ jupyter
 notebook
 jupyterlab
 numpy
+scipy
+lightgbm
+joblib

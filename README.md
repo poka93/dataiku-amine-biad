@@ -27,8 +27,8 @@ To replicate this analysis, please follow these steps:
 
 1. Clone the Repository
 
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/poka99/dataiku-amine-biad.git
+   cd dataiku-amine-biad
 
 2. Create and Activate a Virtual Environment
 
@@ -49,4 +49,4 @@ Install all required Python libraries using the requirements.txt file.
 
 The complete analysis is contained within a Jupyter Notebook.
 
-    jupyter notebook notebooks/1_eda_and_modeling.ipynb
+    jupyter notebook notebooks/data_analysis.ipynb
